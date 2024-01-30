@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Lester S. Romero - Credit Analyst</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+       <script src="index.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("Wg6jSbafmmSSIM3Xg");
+      })();
+    </script>
+  </head>
+  <body id="top">
+    <header>
+      <div class="profile-page sidebar-collapse">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" style="background-color: #1A2C44;" color-on-scroll="400">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="#" rel="tooltip">KATALA 88</a>
+        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navigation">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">Details</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Documents</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+    </header>
+    <div class="page-content">
+      <div>
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="orange">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('backgroundkatala.png')"></div>
+      <div class="container">
+        <div class="content-center">
+          <div class="cc-profile-image"><a href="#"><img src="Lester.jpg" alt="Image"/></a></div>
+          <div class="h2 title">John Lester S. Romero</div><p class="category text-white">Credit Analyst</p>
+
+          <a class="btn btn-primary btn-orange smooth-scroll mr-2" data-aos="zoom-in" data-aos-anchor="data-aos-anchor"onclick="makeCall()">Emergency Call</a>
+
+          <script>
+function makeCall() {
+  const phoneNumber = '09502978403'; // Replace this with your own phone number
+
+  if ('contacts' in navigator && 'ContactsManager' in window) {
+    navigator.contacts.select(['phone']).then(contacts => {
+      if (contacts.length > 0) {
+        const number = contacts[0].phoneNumbers[0].value;
+        window.location.href = 'tel:' + number;
+      } else {
+        window.location.href = 'tel:' + phoneNumber;
+      }
+    }).catch(error => {
+      console.error('Contact picker error:', error);
+      window.location.href = 'tel:' + phoneNumber;
+    });
+  } else {
+    window.location.href = 'tel:' + phoneNumber;
+  }
+}
+</script>
+
+    <a class="btn btn-primary btn-orange smooth-scroll mr-2" data-aos="zoom-in" data-aos-anchor="data-aos-anchor" href="sms:09502978403">Emergency SMS</a>
+
+    
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+           <div class="card-body">
+            <div class="h4 mt-0 title">Employee's Details</div>
+            <div class="row">
+              <div class="col-sm-4"><strong class="text-uppercase">SSS:</strong></div>
+              <div class="col-sm-8">02-4374034-7</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">PhilHealth:</strong></div>
+              <div class="col-sm-8">02-253896759-2</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Pag-IBIG:</strong></div>
+              <div class="col-sm-8">121303604038</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">TIN#:</strong></div>
+              <div class="col-sm-8">000-000-000-00000</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">Employer's Details</div>
+              <div class="row">
+              <div class="col-sm-4"><strong class="text-uppercase">SSS:</strong></div>
+              <div class="col-sm-8">02-0992558-8-000</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">PhilHealth:</strong></div>
+              <div class="col-sm-8">00-706000284-5</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Pag-IBIG:</strong></div>
+              <div class="col-sm-8">205089060001</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">TIN#:</strong></div>
+              <div class="col-sm-8">455-415-234-00000</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div></div>
+    </div>
+    <footer class="footer">
+      <div class="container text-center"><a class="cc-facebook btn btn-link" href="https://www.facebook.com/johnlester.romero.77"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="https://telegram.org/dl"><i class="fa fa-telegram fa-2x " aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="https://whatsapp.com/dl/09171632274"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="https://www.instagram.com/ezekiel_katala?igshid=NGVhN2U2NjQ0Yg"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
+      <div class="h4 title text-center">John Lester S. Romero</div>
+      <div class="text-center text-muted">
+        <p>&copy; Katala 88 Marketing. All rights reserved.<br>Loan - <a class="credit" href="https://templateflip.com" target="_blank">For your Future</a></p>
+      </div>
+    </footer>
+    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+    <script src="js/core/popper.min.js?ver=1.1.0"></script>
+    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+    <script src="js/aos.js?ver=1.1.0"></script>
+    <script src="scripts/main.js?ver=1.1.0"></script>
+  </body>
+</html>
